@@ -8,6 +8,7 @@ img {
 }
 
 .title {
+
   font-size: 36px;
   font-weight: 900;
 }
@@ -24,3 +25,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.title {
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.imgtext {
+  display: flex;
+  gap: 52px;
+  width: 100%;
+  justify-content: center;
+}
+
+.txtimg {
+  width: 200px;
+  text-align: center;
+}
+
+
